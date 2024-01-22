@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* 02/09/23 Product Landing Page using HTML/CSS Portfolio Project*/
+body {
+  font-family: arial, sans-serif;
+  padding: 1vw;
+}
+
+#form-div {
+  border: 3px solid navy;
+  padding: 15px;
+  margin: 20px;
+  background-color: #e9edf0;
+  margin-bottom: 15vh;
+}
+
+h4 {
+  color: navy;;
+  margin-top: 12vh;
+  text-align: center;
+}
+
+input {
+  margin: 1vh;
+}
+
+#submit {
+  background-color: navy;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+footer a:link {
+  color: black;
+}
+
+li:hover {
+  background-color: #0793d9;
+}
+
+a:visited {
+  color:gray;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 4vh;
+  color: #0793d9;
+  padding-right: 3vw;
+}
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px solid #e9edf0;
+  padding: 2vw;
+  background-color: #e9edf0;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding: 3%;
+    list-style: none;
+    border: 1px solid black;
+    background: navy;
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+  section {
+    padding-top: 7vh;
+  }
+
+  header {
+    color: navy;
+  }
+
+  #vid-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+p {
+  padding-top: 3vh;
+  padding-bottom: 4vh;
+}
+
+header {
+  font-weight: bold;
+}
+
+#header-img {
+  width: 7%;
+  padding-top: 2%;
+  object-fit: cover;
+}
+
+footer {
+  font-size: 2vh;
+  color: navy;
+}
+
+button {
+  background-color: navy;
+  color: white;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  gap: 4vw;
+  flex-wrap: wrap;
+  }
+
+  h2 {
+    color: navy;
+  }
+
+  .containers {
+    width: 25%
+  }
+
+h4 {
+  font-size: 5vh;
+}
+@media only screen and (max-width: 575px) {
+  #container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+    ul {
+    display: flex;
+    flex-wrap: wrap
+  }
+
+    #header {
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    padding-top: 0;
+  }
+}
+    </style>
+</head>
+<body>
+<!-- 02/09/23 Product Landing Page using HTML/CSS Portfolio Project-->
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Product Landing Page</title>
+
+
+      <a id="top"></a>
+      <main>
+        <header id="header"><h1>Travel Agency</h1><img id="header-img" src="https://cdn.pixabay.com/photo/2022/01/03/23/04/travel-6913775_1280.png"/>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#our-service">Our Service</a></li>
+            <li><a class="nav-link" href="#tours">Tours</a></li>
+           <!--- <li><a class="nav-link" href="#cruises">Cruises</a></li>--->
+            <li><a class="nav-link" href="#day-trips">passenger assistance</a></li>
+            <!--<li><a class="nav-link" href="#short-stays">happy/a></li>--->
+            <li><a class="nav-link" href="#resorts">Resorts</a></li>
+            <li><a class="nav-link" href="#contact">Contact Us</a></li>
+            </ul>
+          </nav>
+        </header>
+        <section>
+          <header id="our-service">Our Service</header>
+          <p>travel management companies offer direct discounts or improved conditions on travel and leisure activities for the employees and their relatives at the companies for which they work.
+
+With the comprehensive management of corporate travel, travel management companies achieve the goal of giving added value to their service, which is essential in order to meet the current expectations and needs of companies.</p>
+          <div id="container"><h2>Book your break now!</h2>
+            <div class="containers"><img src="https://cdn.pixabay.com/photo/2013/04/11/19/46/building-102840_1280.jpg"/><button>Book Tour</button></div>
+                        <div class="containers"><img src="https://cdn.pixabay.com/photo/2016/08/08/15/08/cruise-1578528_1280.jpg"/><button>Book Cruise</button></div>
+                        <div class="containers"><img src="https://cdn.pixabay.com/photo/2014/03/08/22/32/escalator-283448_1280.jpg"/><button>Book Day-Trip</button></div>
+                        <div class="containers"><img src="https://cdn.pixabay.com/photo/2020/08/14/15/22/canal-5488271_1280.jpg"/><button>Book Short-Stay</button></div>
+                        <div class="containers"><img src="https://cdn.pixabay.com/photo/2017/12/16/22/22/bora-bora-3023437_1280.jpg"/><button>Book Resort</button></div>
+                        </div>
+          </section>
+          <section>
+            <header id="tours">Tours</header>
+            <p>Leh Ladakh Holiday Package with Nubra & Pangong Stay. ...</p>
+              <P>Shillong & Cherrapunjee Package with Elephant Safari in Kaziranga & Dawki River. ...</P>
+              <P>Spiti Valley Trek Package with Guide. ...</P>
+              <P>Sikkim Tour Package for 5 Days.</P>
+
+            <section>
+             <!---- <header id="cruises">Cruises</header>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>-->
+                <section>
+                <header id="day-trips">Passenger assistance</header>
+                            <p>On a trip there may be many unforeseen problems and issues which need to be resolved: repatriation due to illness, accident or emergency, lost luggage or documents, etc.</p>
+                        </section>
+            <section>
+              <!---<header id="short-stays">Short-Stays</header>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>--->
+                        <section>
+            <header id="resorts">Resorts</header>
+            <p>Aquellum will be a subterranean digitalized community of the future. Invisible from the outside, this hidden world will be driven by boundless imagination, inverting architectural principles to integrate with nature. It will seamlessly connect hotel accommodation, apartments, retail spaces, leisure and entertainment zones and innovative hubs.</p>
+            </section>
+            <section>
+              <header id="contact">Contact Us</header>
+              <p>Kerala Holiday Mart
+Address:	Division of Kaduna Properties Pvt Ltd., Chiramel Building Sreekandath Road
+Contact No:	(0484) 4061100
+Mobile:	+(91) 99958 21781, 99958 24937
+Email:	jacob@keralaholidaymart.com
+Website:	www.keralaholidaymart.com
+</p>
+              <div id="form-div">
+                <h3>Fill in the box below to recieve discounts, news and offers via email!</h3>
+              <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+                <label>Email Address: <input type="email" id="email" name="email" placeholder="Email goes here..."></input></label>
+                <input id="submit" type="submit"></input>
+                </form>
+                </div>
+              <!----  <h4>Watch our happy customers' experiences!</h4> <div id="vid-flex"><video id="video" controls><source src="https://www.youtube.com/embed/8jtsWGyyvVI.mp4"></source>Your browser does not support this video playback...-->
+
+</section>
+<p><a href="#top">Back to top</a></p>
+
+              </main>
+        <footer> Copyright &copy;2023 by <a href="https://codepen.io/_trm_">trm</a>. All rights reserved</footer>
+
+
+</body>
+</html>
